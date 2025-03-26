@@ -1,0 +1,64 @@
+/* AboutUs.css */
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.about-us-content {
+  background-color: transparent;
+  padding: 0;
+}
+
+.section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.logo-container {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: adds rounded corners to logos */
+}
+
+.content-container {
+  flex: 1;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.section-title {
+  color: #2c3e50;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  color: #2c3e50;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+  .logo-container {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .logo-container img {
+    max-width: 150px; /* Optional: limits logo size on small screens */
+  }
+}
